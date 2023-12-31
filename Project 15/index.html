@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="app.css" />
+    <title>Date Project</title>
+  </head>
+  <body>
+    <div class="container" id="container1">
+      <div>
+        <h1 class="header_text">Do you wanna go out with me on 1st January...?</h1>
+      </div>
+      <p>
+        <a href="https://www.instagram.com/chandravijay_rajput_up61/">@chandravijay_rajput_up61</a>
+      </p>
+      <div class="gif_container">
+        <img
+          src="https://i.postimg.cc/pdNqPxx1/milk-and-mocha-cute.gif"
+          alt="Cute animated illustration"
+        />
+      </div>
+      <div class="buttons">
+        <button class="btn" id="yesButton" onclick="showSecondContainer()">Yes</button>
+        <button
+          class="btn"
+          id="noButton"
+          onmouseover="moveButton()"
+          onclick="moveButton()"
+        >
+          No
+        </button>
+      </div>
+    </div>
+
+    <div class="container" id="container2" style="display: none;">
+      <div>
+        <h1 class="header_text">Yeeyy ! Finally</h1>
+      </div>
+      <div class="gif_container">
+        <img
+          src="https://i.postimg.cc/wTDG30TB/yes.gif"
+          alt="Cute animated illustration"
+        />
+      </div>
+      <button class="btn" id="fixDateButton" onclick="nextPage()">
+        Let's Fix a Date
+      </button>
+    </div>
+    
+
+    <script src="app.js"></script>
+  </body>
+</html>
